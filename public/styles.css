@@ -1,3 +1,32 @@
+.nav-bar {
+    background-color: rgb(88, 90, 92);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 25px;
+  }
+  
+  .nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+  }
+  
+  .nav-bar-ul {
+      width: auto;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-evenly
+  }
+  
+  .nav-bar-ul li {
+      list-style-type: none;
+      text-align: center;
+  }
+
+body {
+    background-color: rgb(209, 206, 205);
+}
+
 h1 {
     text-align: center;
     margin-bottom: 10px;
@@ -23,6 +52,8 @@ h1 {
 }
 
 .box {
+    font-size: 1.2rem;
+    background-color: rgb(189, 189, 189);
     text-align: center;
     border: 2px solid #EEE;
     border-radius: 20px;
@@ -33,13 +64,20 @@ h1 {
     width: 40%;
 }
 
+.italic {
+    font-style: italic;
+    text-align: left;
+}
+
 .box-about {
+    font-size: 1.2rem;
+    background-color: rgb(189, 189, 189);
     text-align: center;
     border: 2px solid #EEE;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 2px 2px 10px 0 #EEE;
-    margin: 50px 5% 0 5%;
+    margin: 30px 5% 0 5%;
     padding: 20px;
     width: 80%;
 }
