@@ -64,6 +64,10 @@ h1 {
     width: 40%;
 }
 
+.clean-li {
+    list-style: none;
+}
+
 .italic {
     font-style: italic;
     text-align: left;
